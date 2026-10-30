@@ -1,0 +1,10 @@
+{
+  "_comment": "Development-only sample used by LOYALTRI_CLIENT=mock. Field names are placeholders for the mock, not Loyaltri's real schema. Edit freely, or point LOYALTRI_MOCK_FILE at your own file.",
+  "employees": [
+    {"id": "LY-0001", "employee_code": "E1000", "full_name": "Ravi Menon", "work_email": "ravi.menon@switrus.com", "mobile": "9800000001", "department_code": "1", "branch_code": "BR01", "reporting_manager_code": null, "status": "active"},
+    {"id": "LY-0002", "employee_code": "E1001", "full_name": "Asha Nair", "work_email": "asha@switrus.com", "mobile": "9876543210", "department_code": "5", "branch_code": "BR01", "reporting_manager_code": "E1000", "status": "active"},
+    {"id": "LY-0003", "employee_code": "E1002", "full_name": "Kiran Das", "work_email": "kiran.das@switrus.com", "mobile": "9800000003", "department_code": "5", "branch_code": "BR02", "reporting_manager_code": "E1000", "status": "active"},
+    {"id": "LY-0004", "employee_code": "E2001", "full_name": "Meera Pillai", "work_email": "meera.pillai@switrus.com", "mobile": "9800000004", "department_code": "6", "branch_code": "BR02", "reporting_manager_code": "E1001", "status": "active"},
+    {"id": "LY-0005", "employee_code": "", "full_name": "Record Without Code", "work_email": "nocode@switrus.com", "status": "active"}
+  ]
+}
